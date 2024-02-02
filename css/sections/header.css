@@ -1,3 +1,30 @@
-body{
-    background-color: aqua;
+.container{
+    margin:20px;
+}
+nav{
+    background-color: aliceblue;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:10%;
+    margin-left:10%;
+}
+.nav__center li{
+    
+    display:inline-block;
+    list-style-type: none;
+    padding:20px;
+    cursor: pointer;
+}
+.nav__center ul li:hover{
+    background-color: #eea539;
+    color:aliceblue;
+}
+
+
+
+.nav__right img{
+    padding:20px;
 }
