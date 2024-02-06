@@ -1,48 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pizarra-deliveries</title>
   </head>
   <body>
-    <section>
-      <nav>
+    <header>
+      <nav class="nav">
         <div class="container">
-        <div class="nav">
-          <div class="nav__left">
-            <img src="./images/logo.svg" />
-          </div>
+          <div class="nav__container">
+            <div class="nav__left">
+              <img src="images/logo.svg" />
+            </div>
             <div class="nav__center">
               <ul>
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Shop</li>
                 <li>Contacts</li>
-                </ul>
-                </div>
-                <div class="nav__right">
-                <img src="images/avatar.png"width="50px"/>
-                <img src="images/shopping-cart.png"width="50px"/>
-              </div>
-            
-          
+              </ul>
+            </div>
+            <div class="nav__right">
+              <img src="images/shopping-cart.png" width="30px" />
+              <img src="images/avatar.png" width="30px" />
+            </div>
+          </div>
         </div>
       </nav>
-    </section>
-    
-    <div class="hero">
-      <h1>Easy way to order your food</h1>
-      <h1>Choosing<span class="orange"> Healthy</span> <br>& <span  class="orange">Fresh</span>Pizza</h1>
-      <p>We offer the fastest and favorite pizza delivery services all over the country.<br>Search for your favorite pizza toppings here.</p>
-      <div class="search-icon">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text"placeholder="find your pizza type">
-      <button><class="search</button>
-      </div>
-      </div>
-      </html>
-    </body>
+
+      <section class="container">
+        <div class="hero">
+          <div class="hero__left">
+            <p><strong>Easy way to order your food</strong></p>
+            <h1>
+              Choosing<span class="orange"> Healthy</span> <br />&
+              <span class="orange">Fresh</span>Pizza
+            </h1>
+            <p>
+              we offer the fastest and favorite pizza delivery services all over
+              the country.<br />Search for your favorite pizza toppings here.
+            </p>
+
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="find your pizza type" />
+              <button class="hero__search-icon">search</button>
+            </div>
+            <div class="hero__cards">
+              <div class="hero__cards--lightblue">
+                <div class="hero__cards--img">
+                  <img src="images/cutlery.png" width="50px" />
+                </div>
+                <p>500+</p>
+                <p>Restaurants</p>
+              </div>
+              <div class="hero__cards--lightblue">
+                <div class="hero__cards--img">
+                  <img src="images/fresh-pizza.png" width="50px" />
+                </div>
+                <p>200+</p>
+                <p>Pizza Varieties</p>
+              </div>
+              <div class="hero__cards--lightblue">
+                <div class="hero__cards--img">
+                  <img src="images/star.png" width="50px" />
+                </div>
+                <p>(7.8)</p>
+                <p>10K Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__right">
+            <img src="images/hero-pizza.png" width="400px" />
+            <div class="pizzas">
+              <img src="images/pizza-1.png" width="150px" />
+              <img src="images/pizza-2.png" width="100px" />
+              <img src="images/pizza-3.png" width="100px" />
+              <img src="images/pizza-4.png" width="100px" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="menu__content">
+          <h1>New in Menu</h1>
+          <h1><span class="menu__content--sp">Special Menu</span> For You</h1>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

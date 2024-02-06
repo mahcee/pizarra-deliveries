@@ -1,21 +1,23 @@
-@import url("sections/hero.css");
-.container{
-    margin:20px;
-}
+
 nav{
-    background-color: aliceblue;
+    background-color: #F4F7FB;
+    padding: 1.5em 0;
 }
-.nav{
+.nav__container{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin-right:10%;
-    margin-left:10%;
-}
-.nav__center li{
     
-    display:inline-block;
+}
+.nav__center ul{
+    
+    display:flex;
     list-style-type: none;
+    gap: 2em;
+   
+   
+}
+.nav__center ul li{
     padding:20px;
     cursor: pointer;
 }
@@ -26,6 +28,7 @@ nav{
 
 
 
-.nav__right img{
-    padding:20px;
+.nav__right{
+    display: flex;
+    gap: 2em;
 }
