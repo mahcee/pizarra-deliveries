@@ -1,0 +1,39 @@
+.menu__content{
+    font-size: 50px;
+    text-align: center;
+
+}
+.menu__content--sp{
+    color:#eea539;
+  }  
+  .menu__content--order ul li {
+    
+    display: inline-flex;
+    padding-right: 200px;
+    list-style-type: none;
+  }
+  .menu__content--order ul li {
+    cursor: pointer;
+  }
+  .menu__content--order ul li:hover{
+    
+    border-bottom: 5px solid #eea539;
+    color:#eea539;
+  }
+    .line{
+      border-bottom: 0.2px solid gray;
+    }
+  .menu__content--cards{
+    display: flex;
+    gap:20em;
+     }
+     .menu__content--lightblue{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+      padding: 2em;
+      background-color: aliceblue;
+     }
+     
+  }
