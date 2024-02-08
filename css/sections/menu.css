@@ -1,3 +1,6 @@
+.menu{
+  margin-top:20px;
+}
 .menu__content {
   font-size: 50px;
   text-align: center;
@@ -5,25 +8,30 @@
 .menu__content--sp {
   color: #eea539;
 }
+.menu__content--order ul{
+  display: flex;
+  gap:5em;
+}
 .menu__content--order ul li {
-  display: inline-flex;
-  padding-right: 150px;
   list-style-type: none;
 }
 .menu__content--order ul li {
   cursor: pointer;
+  display: flex;
 }
 .menu__content--order ul li:hover {
   border-bottom: 5px solid #eea539;
   color: #eea539;
 }
 .line {
+  margin-top: 20px;
+  margin-bottom: 0;
   border-bottom: 0.2px solid gray;
 }
 .menu__content__cards {
   display: flex;
   flex-wrap:wrap;
-  gap:8em;
+  gap:2em;
 
 
 }
