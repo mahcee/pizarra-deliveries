@@ -7,7 +7,7 @@
 }
 .menu__content--order ul li {
   display: inline-flex;
-  padding-right: 200px;
+  padding-right: 150px;
   list-style-type: none;
 }
 .menu__content--order ul li {
@@ -20,18 +20,21 @@
 .line {
   border-bottom: 0.2px solid gray;
 }
-.menu__content--cards {
+.menu__content__cards {
   display: flex;
-  gap: 20em;
+  gap:10em;
+  flex-wrap: wrap;
+
 }
-.menu__content--lightblue {
+.menu__content--card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   padding: 2em;
   background-color: aliceblue;
 }
 .btn{
+
   background-color: black;
     border: none;
   padding: 10px 20px;
@@ -40,4 +43,88 @@
   border-radius:5px;
   text-transform:capitalize;
 
+}
+.btn-more{
+
+align-content:center;
+  background-color: #eea539;
+    border: none;
+  padding: 10px 20px;
+  color:white;
+  font-size:23px;
+  border-radius:5px;
+  text-transform:capitalize;
+  position:relative;
+  left:50%;
+}
+.manifesto{
+  display: flex;
+  
+}
+.manifesto__cards{
+  display: flex;
+   gap:2em;
+   flex-direction: column;
+   background-color: aliceblue;
+   
+}
+.manifesto__cards--img{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  padding: 2em;
+background-color: white;
+  
+}
+.manifesto__img{
+  display: flex;
+ background-color: black;
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+}
+.enquiries__text{
+  text-align:center;
+}
+.enquiries--img{
+  background-color: aliceblue;
+  display: flex;
+  gap:10em;
+}
+.footer{
+  height:30%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  gap:2em;
+  padding:70px;
+}
+.footer h3{
+  font-size:30px;
+  color:white;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__center ul li{
+  color: white;
+  list-style-type: none;
+  font-size:30px;
+  padding:15px;
+}
+.email-footer{
+  padding:2em ;
+  border:none;
+  outline:none;
+}
+.btn-footer{
+  background-color: #eea539;
+    border: none;
+  padding: 1.8em;
+  color:white;
+  font-size:23px;
+  border-radius:5px;
+  text-transform:capitalize;
 }
