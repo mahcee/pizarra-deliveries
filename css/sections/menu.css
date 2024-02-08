@@ -22,15 +22,17 @@
 }
 .menu__content__cards {
   display: flex;
-  gap:10em;
-  flex-wrap: wrap;
+  
+  gap:8em;
+
 
 }
 .menu__content--card {
   display: flex;
+  
   flex-direction: column;
   align-items: center;
-  padding: 2em;
+  padding: 1.5em;
   background-color: aliceblue;
 }
 .btn{
@@ -90,8 +92,11 @@ background-color: white;
 .enquiries--img{
   background-color: aliceblue;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap:10em;
 }
+
 .footer{
   height:30%;
   background-color: black;
