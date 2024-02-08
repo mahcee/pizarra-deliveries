@@ -22,7 +22,7 @@
 }
 .menu__content__cards {
   display: flex;
-  
+  flex-wrap:wrap;
   gap:8em;
 
 
