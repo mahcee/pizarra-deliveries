@@ -7,31 +7,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:"Kanit", sans-serif;
-font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
 }
 .container {
   width: 90%;
   margin: 0 auto;
 }
-p{
+p {
   font-weight: bold;
   font-size: 20px;
 }
-h2{
-  font-size:30px;
-}
-h4{
-  color:gray;
-}
-  
 
-li{
-  font-size:30px;
-} 
+h2 {
+  font-size: 20px;
+}
+h4 {
+  color: gray;
+}
 
-@media screen and(max-width:450px){
+li {
+  font-size: 30px;
+}
+
+/* @media screen and(max-width:450px){
   .left, .main, .right{
     width: 100%;
   }
-}
+} */
