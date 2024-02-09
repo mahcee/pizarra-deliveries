@@ -16,7 +16,7 @@ nav{
     }
 .nav__center ul li{
     
-    padding:20px;
+    padding:2em;
     cursor: pointer;
 }
 .nav__center ul li a{
@@ -36,4 +36,6 @@ nav{
     display: flex;
     gap: 2em;
 }
-
+.hamburger{
+    display:none;
+}
