@@ -12,18 +12,26 @@ nav{
 .nav__center ul{
     
     display:flex;
+    
     list-style-type: none;
     gap: 2em;
    
    
 }
 .nav__center ul li{
+    
     padding:20px;
     cursor: pointer;
 }
-.nav__center ul li:hover{
+.nav__center ul li a{
+    font-size:20px;
+    color:black;
+    text-decoration:none ;
+}
+.nav__center ul li a:hover{
     background-color: #eea539;
     color:aliceblue;
+    padding:20px;
 }
 
 
