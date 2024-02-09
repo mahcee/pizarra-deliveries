@@ -21,7 +21,6 @@
 }
 .hero__container{
     display:flex;
-    flex:1;
     padding-top: 2em;
 }
 .hero__left h1{
@@ -38,6 +37,10 @@
     padding-left:5em;
     padding-top: 5em;
     flex-direction: column;
+    flex:1;
+}
+.hero__left{
+    flex:1;
 }
 .hero__cards{
     display: flex;
