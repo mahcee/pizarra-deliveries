@@ -34,5 +34,11 @@ nav {
   display: none;
 }
 /* media query */
-@media screen and(max-width:660px) {
+@media screen and (max-width:660px) {
+    .nav__center{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
 }

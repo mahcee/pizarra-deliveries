@@ -21,11 +21,18 @@
 }
 .hero__container{
     display:flex;
+    flex:1;
     padding-top: 2em;
 }
 .hero__left h1{
     font-size:100px;
 
+}
+.hero__right img{
+    width:100%;
+}
+.pizzas img{
+    width: 25%;
 }
 .hero__right{
     padding-left:5em;
