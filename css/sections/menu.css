@@ -37,7 +37,6 @@
 }
 .menu__content--card {
   display: flex;
-  
   flex-direction: column;
   align-items: center;
   padding: 1.5em;
@@ -69,6 +68,7 @@ align-content:center;
 }
 .manifesto{
   display: flex;
+  padding-top: 2em;
   
 }
 .manifesto__cards{

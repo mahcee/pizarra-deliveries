@@ -21,12 +21,15 @@
 }
 .hero__container{
     display:flex;
+    padding-top: 2em;
 }
 .hero__left h1{
     font-size:100px;
+
 }
 .hero__right{
-    
+    padding-left:5em;
+    padding-top: 5em;
     flex-direction: column;
 }
 .hero__cards{
