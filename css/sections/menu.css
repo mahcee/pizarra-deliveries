@@ -98,18 +98,34 @@ background-color: white;
   text-align:center;
 }
 .enquiries--img{
-  background-color: aliceblue;
+  background-color:whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:10em;
+  /* flex-direction: column; */
+  padding: 1em 6em;
+  text-align: center;
+  gap: 6em;
 }
-
+.enquiries__content{
+  justify-content: space-evenly;
+  border: none;
+  
+  display: flex;
+  text-align: center;
+  gap: 2em;
+}
+.enquiries--image{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+  padding: 2em;
+}
 .footer{
   height:30%;
   background-color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap:2em;
   padding:70px;
 }
