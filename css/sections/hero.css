@@ -4,25 +4,30 @@
 }
 .search-icon {
   border: 5px light grey;
-  padding-left:1em;
+  padding-left: 1em;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 .hero__input {
-  border: 5px light grey;
-  padding: 2em 1em;
-  border-color: gray;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding-left: 1em;
 }
-.hero__search-icon {
-    
+.hero__input input {
+  padding: 2em 1em;
+  border: none;
+  outline:none;
+}
+.hero__search-button {
   border: none;
   padding: 2em;
   color: white;
   font-size: 23px;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: black;
 }
 .hero__container {
@@ -54,7 +59,7 @@
 }
 .hero__cards--lightblue {
   display: flex;
-  flex:1;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   padding: 2em;
@@ -62,7 +67,7 @@
 }
 .hero__cards--img {
   display: flex;
-  flex:1;
+  flex: 1;
   background-color: black;
   border-radius: 50%;
   width: 50px;

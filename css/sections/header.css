@@ -20,6 +20,7 @@ nav {
   color: black;
   text-decoration: none;
   padding: 1em;
+  display: block;
 }
 .nav__center ul li a:hover {
   background-color: #eea539;
