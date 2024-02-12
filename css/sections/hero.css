@@ -4,12 +4,20 @@
 }
 .search-icon {
   border: 5px light grey;
+  padding-left:1em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width:100%;
 }
+
 .hero__input {
+  border: 5px light grey;
   padding: 2em 1em;
   border-color: gray;
 }
 .hero__search-icon {
+    
   border: none;
   padding: 2em;
   color: white;
@@ -41,11 +49,12 @@
 }
 .hero__cards {
   display: flex;
-flex:1;
+  flex-wrap: wrap;
   gap: 2em;
 }
 .hero__cards--lightblue {
   display: flex;
+  flex:1;
   flex-direction: column;
   align-items: center;
   padding: 2em;
@@ -53,6 +62,7 @@ flex:1;
 }
 .hero__cards--img {
   display: flex;
+  flex:1;
   background-color: black;
   border-radius: 50%;
   width: 50px;
